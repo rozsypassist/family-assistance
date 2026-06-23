@@ -1,3 +1,11 @@
 {
-  "framework": "tanstack-start"
+  "version": 2,
+  "publicSource": "dist/client",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
