@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "publicSource": "dist/client",
+  "outputDirectory": "dist/client",
   "cleanUrls": true,
   "rewrites": [
     {
